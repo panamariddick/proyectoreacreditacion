@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Reacreditacion</string>
+    <string name="name_app">FISC</string>
+    <string name="app_name">Reacreditación</string>
+    <string name="correo"> Correo electrónico</string>
+    <string name="contrasena"> Contraseña</string>
+    <string name="boton_login"> Iniciar</string>
+    <string name="salir">Cerrar Sesión</string>
+    <string name="acercade">Acerca de</string>
 </resources>
