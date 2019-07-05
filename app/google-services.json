@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "413533872219",
+    "firebase_url": "https://fiscreacreditacion.firebaseio.com",
+    "project_id": "fiscreacreditacion",
+    "storage_bucket": "fiscreacreditacion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413533872219:android:2012b7062d0fd61a",
+        "android_client_info": {
+          "package_name": "com.example.reacreditacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413533872219-b44epc3shnfkj59gekl6l305m992piqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reacreditacion",
+            "certificate_hash": "17fa3ba06bcece0e5369482c37ecbb0597f72b49"
+          }
+        },
+        {
+          "client_id": "413533872219-a83emcn565rcr0e1omn1340q4487cfmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrsOJ9xbru6UfSQbme2ETAIpd-0xCiDSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413533872219-a83emcn565rcr0e1omn1340q4487cfmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
