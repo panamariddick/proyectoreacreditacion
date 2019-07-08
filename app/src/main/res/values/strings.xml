@@ -6,4 +6,6 @@
     <string name="boton_login"> Iniciar</string>
     <string name="salir">Cerrar Sesión</string>
     <string name="acercade">Acerca de</string>
+    <string name="seleccionar_fecha_inicial">Fecha inicial</string>
+    <string name="seleccionar_fecha_final">Fecha de destino</string>
 </resources>

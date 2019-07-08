@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.reacreditacion">
+    <uses-sdk android:minSdkVersion="14"
+        android:targetSdkVersion="28"
+        android:maxSdkVersion="28"
+        tools:ignore="GradleOverrides" />
 
     <application
         android:name=".App.MyApp"
@@ -12,17 +16,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
-        <activity android:name=".Login"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Splash.SplashActivity"
-                  android:theme="@style/SplashScreen">
+        <activity android:name=".Categoria"></activity>
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
