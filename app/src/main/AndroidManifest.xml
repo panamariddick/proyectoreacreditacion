@@ -2,10 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.reacreditacion">
-    <uses-sdk android:minSdkVersion="14"
-        android:targetSdkVersion="28"
-        android:maxSdkVersion="28"
-        tools:ignore="GradleOverrides" />
 
     <application
         android:name=".App.MyApp"
@@ -16,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
-        <activity android:name=".Categoria"></activity>
+        <activity android:name=".Agregar_nueva_actividad"></activity>
+        <activity android:name=".Busqueda" />
         <activity
             android:name=".Login"
             android:theme="@style/AppTheme.NoActionBar" />

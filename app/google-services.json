@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "413533872219-q97124444suegm1glgslkr7i4giht3t2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reacreditacion",
+            "certificate_hash": "d66f363869f651abb92e654ef3ae91b47d9a04d7"
+          }
+        },
+        {
           "client_id": "413533872219-b44epc3shnfkj59gekl6l305m992piqg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

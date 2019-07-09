@@ -8,4 +8,10 @@
     <string name="acercade">Acerca de</string>
     <string name="seleccionar_fecha_inicial">Fecha inicial</string>
     <string name="seleccionar_fecha_final">Fecha de destino</string>
+    <string name="et_input_nombre">Nombre</string>
+    <string name="et_input_fecha">Fecha</string>
+    <string name="et_input_tipo">Tipo</string>
+    <string name="radio_estudiante">Estudiante</string>
+    <string name="radio_profesor">Docente</string>
+
 </resources>

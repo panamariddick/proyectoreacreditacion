@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Categoria">
+    tools:context=".Busqueda">
 
     <ImageButton
         android:id="@+id/img_btn_De"
-        android:layout_width="60dp"
-        android:layout_height="59dp"
+        android:layout_width="66dp"
+        android:layout_height="65dp"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="null"
         android:src="@drawable/calendar_96px"
         app:layout_constraintEnd_toStartOf="@+id/et_desde_fecha"
-        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,9 +36,10 @@
         android:src="@drawable/date_to_96px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/et_hasta_fecha"
+        app:layout_constraintHorizontal_bias="0.323"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_btn_De"
-        app:layout_constraintVertical_bias="0.008" />
+        app:layout_constraintVertical_bias="0.011" />
 
     <!-- boton que llama  de forma manual  la pantalla agregar actividad -->
     <ImageButton
@@ -61,18 +62,17 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:hint="@string/seleccionar_fecha_inicial"
         android:id="@+id/et_desde_fecha"
         android:layout_width="201dp"
         android:layout_height="40dp"
-        android:layout_marginTop="180dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginRight="68dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:hint="@string/seleccionar_fecha_inicial"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:hint="@string/seleccionar_fecha_final"
         android:id="@+id/et_hasta_fecha"
         android:layout_width="199dp"
         android:layout_height="43dp"
@@ -80,10 +80,11 @@
         android:layout_marginEnd="68dp"
         android:layout_marginRight="68dp"
         android:layout_marginBottom="8dp"
+        android:hint="@string/seleccionar_fecha_final"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_desde_fecha"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintVertical_bias="0.031" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
