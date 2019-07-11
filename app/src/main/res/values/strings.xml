@@ -13,5 +13,7 @@
     <string name="et_input_tipo">Tipo</string>
     <string name="radio_estudiante">Estudiante</string>
     <string name="radio_profesor">Docente</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_agregar">Agregar nueva actividad</string>
 
 </resources>
